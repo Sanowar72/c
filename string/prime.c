@@ -20,7 +20,7 @@ int main(){
     printf("prime no between %d %d is:",n1,n2);
     for(i=n1;i<=n2;i++){
         if(prime(i)){
-            printf("%d",i);
+            printf("%d ",i);
         }
     }
 }
