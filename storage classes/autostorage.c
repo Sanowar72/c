@@ -12,5 +12,5 @@ void main(){
         printf("inside block %d\n",a);
     }
 
-    printf("indise main function %d\n",a);
+    printf("inside main function %d\n",a);
 }

@@ -8,14 +8,15 @@ int main(){
     printf("Enter the 2nd string\n");
     gets(s2);
     // strcat(s1,s2);
-    strncat(s1,s2,3);
-    puts(s1);
-//     l1=strlen(s1);
-//     l2=strlen(s2);
+    // strncat(s1,s2,3);
+    // puts(s1);
+    l1=strlen(s1);
+    l2=strlen(s2);
     
-//     for(int i=0;i<l2;i++){
-//         s1[l1+i]=s2[i];
-//     }
-//    puts(s1);
+    for(int i=0;i<l2;i++){
+        s1[l1+i]=s2[i];
+    }
+   puts(s1);
+   puts(s2);
 
 }
