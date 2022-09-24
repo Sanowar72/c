@@ -25,6 +25,6 @@ int main(){
         }
        
     }
-    printf("%c in the string is %d times",ch,count);
+    // printf("%c in the string is %d times",ch,count);
     return 0;
 }
